@@ -240,7 +240,7 @@ body {
 .yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-coverage {
     display: none;
 }
-.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget div#yotpo-reviews-container .yotpo-reviews-list .yotpo-review .yotpo-review-left-panel .yotpo-reviewer .yotpo-reviewer-details-verified span.yotpo-reviewer-name {
+.yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-highlight-reviewer {
     font-weight: bold;
 }
 .yotpo-reviews-summary-button #yotpo-summary .yotpo-button-icon-text:after {
