@@ -202,16 +202,19 @@ body {
 /* CSS UGC */
 
 .yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-footer-container {
-    background-color: #000 !important;
+    background-color: #000!important;
+    border-radius: .5rem;
+    padding: 1rem;
 }
 .yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-footer-container .yotpo-summary-footer-read-all-reviews {
     color: #fff;
+    font-size: 15px !important;
 }
 
 @font-face {
   font-family: 'ABC Diatype';
   font-style: normal;
-  src: url(https://cdn.shopify.com/s/files/1/0708/4605/4708/files/ABCFavoritMono-Regular.woff2?v=1742818817) format('woff2');
+  src: url(https://cdn.shopify.com/s/files/1/0708/4605/4708/files/ABCDiatype-Regular_6538acdc-415d-4d07-9bb9-2469edca8f78.woff2?v=1742818817) format('woff2');
 }
 @font-face {
   font-family: 'ABC Diatype';
@@ -230,10 +233,25 @@ body {
     color: transparent;
 }
 .yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-header-text:after {
-    content: "These are the topics customers are talking about based on customer reviews.";
+    content: "This is an AI-generated summary based on real customer reviews.";
     color: #000;
     position: absolute;
 }
 .yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-coverage {
     display: none;
+}
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget div#yotpo-reviews-container .yotpo-reviews-list .yotpo-review .yotpo-review-left-panel .yotpo-reviewer .yotpo-reviewer-details-verified span.yotpo-reviewer-name {
+    font-weight: bold;
+}
+.yotpo-reviews-summary-button #yotpo-summary .yotpo-button-icon-text:after {
+    content: "Review summary";
+    color: #fff;
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+}
+.yotpo-reviews-summary-button #yotpo-summary .yotpo-button-icon-text {
+    color: transparent;
+    position: relative;
+    font-size: 9px;
 }
