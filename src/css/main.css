@@ -209,6 +209,7 @@ body {
 .yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-footer-container .yotpo-summary-footer-read-all-reviews {
     color: #fff;
     font-size: 15px !important;
+      text-transform: capitalize;
 }
 
 @font-face {
@@ -244,7 +245,7 @@ body {
     font-weight: bold;
 }
 .yotpo-reviews-summary-button #yotpo-summary .yotpo-button-icon-text:after {
-    content: "Review summary";
+    content: "Review Summary";
     color: #fff;
     position: absolute;
     left: 0;
@@ -254,4 +255,25 @@ body {
     color: transparent;
     position: relative;
     font-size: 9px;
+}
+.yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-header .yotpo-summary-header-title {
+    color: #0000;
+    position: relative;
+    width: 100%;
+}
+.yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-summary-header .yotpo-summary-header-title:after {
+    content: "What are customers saying?";
+    position: absolute;
+    color: #000;
+    left: 30px;
+}
+.yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-reviews-highlights-title:after {
+    content: "Review highlights";
+    color: #000;
+    position: absolute;
+    left: 0;
+}
+.yotpo-reviews-summary-modal-container div#yotpo-summary-container .yotpo-reviews-highlights-title {
+    position: relative;
+    color: #0000;
 }
