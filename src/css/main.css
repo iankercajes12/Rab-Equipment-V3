@@ -277,3 +277,6 @@ body {
     position: relative;
     color: #0000;
 }
+#yotpo-summary-container .yotpo-close-icon.yotpo-summary-close {
+    z-index: 10000000000;
+}
